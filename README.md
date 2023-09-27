@@ -16,13 +16,13 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 We assume $\log_{5}n$ = $\log_{a}n$  and   $\log_{2}n$  =  $\log_{b}n$
 
-$\log_{a}n$  $\ leq $  $\log_{a}b$  x $\log_{b}n$ 
+$\log_{a}n$  $ leq $  $\log_{a}b$  x $\log_{b}n$ 
 
-$\log_{a}n$ $\ leq $  $\frac{log_{x}b}{log_{x}a}$  x   $\frac{log_{x}n}{log_{x}b}$
+$\log_{a}n$ $ leq $  $\frac{log_{x}b}{log_{x}a}$  x   $\frac{log_{x}n}{log_{x}b}$
 
 $\frac{log_{x}n}{log_{x}a}$ =  $\log_{a}n$ 
 
-Proof = $\log_{a}n$  $\ leq $   $\log_{a}n$
+Proof = $\log_{a}n$  $ leq $   $\log_{a}n$
 
 Based on the above procedure, we can assume that $\log_{a}n$ is same as $\log_{b}n$
 
