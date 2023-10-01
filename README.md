@@ -24,11 +24,11 @@ ________________________________________________________________________________
 
 Proof = $O$ $\(log_{5}n)$  = $O$ $\(log_{2}n)$
 
-definition = T(n) $\in$ $O$ (f(n)) <==> $\exists c_1 n_0$ : T(n) $\leq$ c f(n) $\forall_n$ $\geq$ $n_0$
+definition = T(n) $\in$ $O$ (f(n)) $\iff$ $\exists c_1 n_0$ : T(n) $\leq$ c f(n) $\forall_n$ $\geq$ $n_0$
 
--> T(n) $\in$ $O$ $\(log_{5}n)$ <==> $\exists c_1 n_0$ : T(n) $\leq$ c $\log_{5}n$ $\forall_n$ $\geq$ $n_0$
+-> T(n) $\in$ $O$ $\(log_{5}n)$ $\iff$ $\exists c_1 n_0$ : T(n) $\leq$ c $\log_{5}n$ $\forall_n$ $\geq$ $n_0$
 
--> T(n) $\in$ $O$ $\(log_{5}n)$ <==> $\exists c_1 n_0$ : T(n) $\leq$ c $\frac{1}{log_{2}5}log_{2}n$
+-> T(n) $\in$ $O$ $\(log_{5}n)$ $\iff$ $\exists c_1 n_0$ : T(n) $\leq$ c $\frac{1}{log_{2}5}log_{2}n$
 
 -> T(n) $\leq$ d $\(log_{2}n)$
 
@@ -36,9 +36,9 @@ definition = T(n) $\in$ $O$ (f(n)) <==> $\exists c_1 n_0$ : T(n) $\leq$ c f(n) $
 
 __________________________________________________________________________________________________________________________________
 
--> T(n) $\in$ $O$ $\(log_{2}n)$ <==> $\exists c_1 n_0$ : T(n) $\leq$ c $\log_{2}n$ $\forall_n$ $\geq$ $n_0$
+-> T(n) $\in$ $O$ $\(log_{2}n)$ $\iff$ $\exists c_1 n_0$ : T(n) $\leq$ c $\log_{2}n$ $\forall_n$ $\geq$ $n_0$
 
--> T(n) $\in$ $O$ $\(log_{2}n)$ <==> $\exists c_1 n_0$ : T(n) $\leq$ c $\frac{1}{log_{5}2}log_{5}n$
+-> T(n) $\in$ $O$ $\(log_{2}n)$ $\iff$ $\exists c_1 n_0$ : T(n) $\leq$ c $\frac{1}{log_{5}2}log_{5}n$
 
 -> T(n) $\leq$ d $\(log_{5}n)$
 
